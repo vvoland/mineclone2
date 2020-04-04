@@ -1,0 +1,2 @@
+name = "Miska7",
+author = "%TEXTURE_PACK_AUTHOR%",
