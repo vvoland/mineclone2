@@ -211,8 +211,8 @@ lightning.strike = function(pos)
 				end
 
 			-- Cause a fire
-			else
-				minetest.set_node(pos2, {name = "mcl_fire:fire"})
+			--else
+				--minetest.set_node(pos2, {name = "mcl_fire:fire"})
 			end
 		end
 	end
