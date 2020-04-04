@@ -60,7 +60,7 @@ local remove_far = false
 local difficulty = tonumber(minetest.settings:get("mob_difficulty")) or 1.0
 local show_health = false
 local max_per_block = tonumber(minetest.settings:get("max_objects_per_block") or 99)
-local mobs_spawn_chance = tonumber(minetest.settings:get("mobs_spawn_chance") or 2.5)
+local mobs_spawn_chance = tonumber(minetest.settings:get("mobs_spawn_chance") or 5)
 
 -- Peaceful mode message so players will know there are no monsters
 if minetest.settings:get_bool("only_peaceful_mobs", false) then
